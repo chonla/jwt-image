@@ -1,1 +1,7 @@
+<h1>Image directly loaded with BlobService</h1>
+
 <img [src]="imgSrc$ | async">
+
+<h1>Image loaded with Auth Image Pipe</h1>
+
+<img [src]="'https://chonla.github.io/jwt-image/assets/ceo-lisa-black-pink-03.01.jpg' | authImage | async">
