@@ -15,6 +15,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.imgSrc$ = this.blobService.getImage('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/180819_%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_%EC%BD%94%EC%97%91%EC%8A%A4_%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%94%84%EB%9D%BC%EC%9E%90_%EB%A6%AC%EC%82%AC.jpg/440px-180819_%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_%EC%BD%94%EC%97%91%EC%8A%A4_%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%94%84%EB%9D%BC%EC%9E%90_%EB%A6%AC%EC%82%AC.jpg')
+    this.imgSrc$ = this.blobService.getImage('https://chonla.github.io/jwt-image/assets/1024px-180819_블랙핑크_팬싸인회_코엑스_라이브프라자_리사.jpg')
   }
 }
